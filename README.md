@@ -2,7 +2,25 @@
 
 Collection of raw and UX metrics for web front-end performance measurement with prioritisation hints.
 
-Improvements made to web products should improve the higher priority metrics first.
+## What is this project?
+This project is a list of measurable metrics to help website owners, developers, maintainers when discussing
+website performance issues.
+Each metric has a name, a technical and a "plain English" descriptive summary to help either technical and
+non-technical people exactly understand what it is.
+
+Too many performance conversations fail because the communication between the parties is too generic.
+- "The website is slow"
+- "No, It's fast! the DOM is loaded in 0.2 seconds"
+All parties need some help to define exactly what is being discussed, especially as modern websites grow, and
+there are so many components, plugins, pixel trackers, ads that contribute to making large websites slow.
+
+The first step is to identify what part of the website feels slow, what are the most annoying parts, so that
+website developers and performance consultants can best help optimising and talk about exact metrics that can be
+measured, reported, and compared to prove their truth.
+
+The following metrics are grouped in 2: loading and interaction metrics.
+The former measure the page's initial loading performance, whilst the latter anything that comes after, mainly in
+response to user interaction.
 
 ## Loading metrics
 
