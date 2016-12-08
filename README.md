@@ -11,6 +11,7 @@ non-technical people exactly understand what it is.
 Too many performance conversations fail because the communication between the parties is too generic.
 - "The website is slow"
 - "No, It's fast! the DOM is loaded in 0.2 seconds"
+
 All parties need some help to define exactly what is being discussed, especially as modern websites grow, and
 there are so many components, plugins, pixel trackers, ads that contribute to making large websites slow.
 
@@ -19,6 +20,7 @@ website developers and performance consultants can best help optimising and talk
 measured, reported, and compared to prove their truth.
 
 The following metrics are grouped in 2: loading and interaction metrics.
+
 The former measure the page's initial loading performance, whilst the latter anything that comes after, mainly in
 response to user interaction.
 
