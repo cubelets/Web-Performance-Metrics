@@ -67,9 +67,14 @@ Exceptions:
 - Network requests fired from post-load and interactive event handlers (e.g.: setTimeout, onclick) do not count here.
 
 ##Early Interaction metrics
-### M8 - Initial Scroll settlement (Priority: high)
+### M8 - Initial Scroll settlement (Priority: medium)
 Page can be first scrolled at a high frame rate (60fps or the maximum allowed by the browser/device).
 Beware that if the user scrolls very slowly, the reported refresh rate may be less than 60fps because less paints are actually required. That is not a performance bottleneck.
+
+### M8a - Initial Scrolling performance (Priority: high)
+Time when the page can first be scrolled by the average user at a sufficiently high frame rate.
+A frame rate is sufficiently high when allows users to scroll confidently withouth giving the impression the page is not ready yet, thus causing them to stop and wait (more patient user) or scroll faster (more frustrated user).
+
 
 ## Late Interaction metrics
 ### M9 - Framerate delay caused by non-passive scroll event listeners (Priority: high)
